@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <div class="header">
+            <!-- <h1>University Application</h1> -->
+            <div class="nav">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Courses</a>
+                <a href="">Contact</a>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="form">
+                <form>
+                    <br>
+                    <div>
+                        <label for="program"><legend>Program Selection:</legend></label>
+                        
+                        <select id="program">
+                            <option>Computer Science</option>
+                            <option>Pure and Applied Sciences</option>
+                            <option>Biochemistry</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="profilegrade"><legend>Profile Grades:</legend></label>
+                        
+                        <input id="profilegrade" type="text" placeholder="Enter your profile grades">
+                    </div>
+                    <div>
+                        <label for="email"><legend>Email:</legend></label>
+                        
+                        <input id="email" type="text" placeholder="Enter your email">
+                    </div>
+                    <div>
+                        <label for="equivalence"><legend>Profile Equivalence:</legend></label>
+                        
+                        <input id="equivalence" type="text" placeholder="Enter profile equivalence">
+                    </div>
+                    
+                    <div>
+                        <legend>Gender:</legend>
+                        <input id="man" type="radio" name="gender" value="male">
+                        <label for="man">Male</label>
+    
+                        <input id="female" type="radio" name="gender" value="female">
+                        <label id="female">Female</label>
+                    </div>
+                    <div>
+                        <legend>Mode of Study</legend>
+                        <input id="fulltime" type="radio" name="study">
+                        <label for="fulltime">Full-time</label>
+                        <input id="parttime" type="radio" name="study">
+                        <label for="parttime">Part-Time</label>
+                    </div>
+                    <div>
+                        <legend>Choose Extracurricular Activities:</legend>
+                        <label for="sport">Sports</label>
+                        <input id="sport" type="checkbox">
+                        <br>
+                        <label for="music">Music</label>
+                        <input id="music" type="checkbox">
+                        <br>
+                        <label for="code">Coding</label>
+                        <input id="code" type="checkbox">
+                    </div>
+                    <div>
+                        <label for="art">Creative arts hobbies</label>
+                        <select id="art">
+                            <option>Acting</option>
+                            <option>Drawing</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="info">Additional Information:</label>
+                        <br>
+                        <textarea id="info"></textarea>
+                    </div>
+                    <div>
+                        <label for="map">Location on Map:</label>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2883.1497037701774!2d-79.38061252269556!3d43.728216847574025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cd338e0d4dc1%3A0xaf5c2e6d93455ab2!2sYork%20University%20Glendon%20Campus!5e0!3m2!1sen!2sca!4v1707514679476!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="button-container">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </div>
+                </form>
+            </div>
+            <div class="footer">
+                <footer>2024 University Registration Form</footer>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
